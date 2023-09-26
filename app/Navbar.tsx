@@ -1,34 +1,41 @@
 import React from 'react';
-import navlogo from '@/public/navlogo.png';
+import navlogo from '@/public/logo3.png';
 import Image from 'next/image';
-import Styles from '@/styles/navbar.module.css';
+import '@/styles/navbar.css';
 import Link from 'next/link';
 
 
 
 const Navbar = () => {
     return (
-        <nav className='navbar navbar-expand-sm navbar-dark bg-dark'>
-            <div className='container-fluid align-items-end'>
-                <Image src={navlogo.src} alt="logo" width={200} height={90}></Image>
-                <div className='text-light'>...Saving Lives through better education
+        <>
+            <header className='header'>
+                <nav className='navbar navbar-expand-lg header-nav fixed-top'>
+                    <div className='container-fluid'>
+                        <a className='navbar-brand' href='/'>New Truckers Driving Academy</a>
+                        <button className='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className='navbar-toggler-icon'></span>
+                        </button>
+                        <div className='collapse navbar-collapse justify-content-end' id='navbarSupportedContent'>
+                            <ul className='navbar-nav ml-auto mb-2 mb-lg-0 gap-3'>
+                                <li className='nav-item'>
+                                    <a href='/' className='nav-link' aria-current='page'>Home</a>                                    
+                                </li>
+                                <li className='nav-item'>
+                                    <a href='/about' className='nav-link' aria-current='page'>About</a>
+                                </li>
+                                <li className='nav-item'>
+                                    <a href='/courses' className='nav-link' aria-current='page'>Courses</a>
+                                </li>
+                                <li className='nav-item'>
+                                    <a href='/contact' className='nav-link' aria-current='page'>Contact</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                <div className='d-flex gap-3'>
-                    <div>
-                        <Link href='/home'> <button type="button" className="btn btn-outline-light">Home</button> </Link>
-                    </div>
-                    <div>
-                        <Link href='/about'> <button type="button" className="btn btn-outline-light">About</button></Link>
-                    </div>
-                    <div>
-                            <Link href='/courses'><button type="button" className="btn btn-outline-light"> Courses</button></Link>
-                    </div>
-                    <div>
-                            <Link href='/contact'> <button type="button" className="btn btn-outline-light">Contact </button></Link>
-                    </div>
-                </div>
-            </div>
-        </nav> 
+                </nav>
+            </header>
+            </>
     );
 };
 

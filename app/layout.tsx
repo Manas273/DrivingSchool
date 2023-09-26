@@ -2,7 +2,8 @@ import Navbar from './Navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Footer from './footer';
+import { Url } from 'next/dist/shared/lib/router/router';('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,9 +19,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-          <body className={inter.className}>
-              <Navbar />
-              {children}</body>
+      <body className={inter.className}>
+        <div className='min-vh-100 d-flex flex-column'>
+          <Navbar />
+          <div className='flex-grow-1 layoutpadding'>
+            {children}
+            </div>
+          <Footer />
+           </div>
+      </body>
 
 
     </html>

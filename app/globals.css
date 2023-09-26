@@ -3,4 +3,52 @@
 @tailwind utilities;
  */
 
+
+ .navbar-brand{
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    color: #e74c3c;
+}
+
+.layoutpadding{
+    padding-top: 6rem;
+}
+h1{
+font-family: 'Bebas Neue', sans-serif;
+font-size: 60px;}
+h2{
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Zilla Slab', serif;
+}
+h5{
+    text-align: end;
+    font-family: 'Zilla Slab Highlight', serif;
+}
+/* 
+.card{
+     border-width: 3px; }*/
+ 
+ footer {
+    padding: 7em 0; }
+  
+  .footer-07 {
+    background: #121212; }
+    .footer-07 a {
+      color: #a3de83; }
+    .footer-07 p {
+      color: rgba(255, 255, 255, 0.3); }
+    .footer-07 .footer-heading {
+      font-size: 30px;
+      color: #fff;
+      font-weight: 700;
+      margin-bottom: 30px; }
+      .footer-07 .footer-heading .logo {
+        color: #fff; }
+    .footer-07 .menu {
+      margin-bottom: 30px; }
+      .footer-07 .menu a {
+        margin: 0 10px;
+        text-transform: uppercase;
+        letter-spacing: 1px; }
  

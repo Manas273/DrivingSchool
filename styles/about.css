@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+
+.card-body{
+    font-family: 'Crimson Pro', serif;
+    font-size: medium;
+}
+
+p{
+    font-family: 'Crimson Pro', serif;
+    font-size: x-large;
+    padding-top: 20px;
+}
