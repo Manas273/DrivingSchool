@@ -31,12 +31,11 @@ const About = () => {
                     </div>
                     </div>
                 <h2><u>Your Journey Starts Here</u></h2>
-                <div className='card'>
+
                     <div className='card-body'>
                     At New Truckers Driving Academy, we're not just a school, we're a community dedicated to your success. Whether you're a complete beginner or an experienced driver seeking to upgrade your skills, our doors are open to you.
                     Join us in Calgary, where the mountains meet the prairies, and embark on a rewarding career in the trucking industry. Experience the thrill of the open road while enjoying the stability and opportunities that come with a career as a professional truck driver.
                     Contact us today to learn more about our courses, enrollment options, and how we can help you turn your trucking dreams into reality. At New Truckers Driving Academy, your journey to becoming a skilled and confident truck driver begins now!
-                    </div>
                     </div>
             </div></>
     );

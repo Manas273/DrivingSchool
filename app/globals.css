@@ -4,7 +4,8 @@
  */
 
 
- .navbar-brand{
+
+.navbar-brand{
     font-family: 'Oswald', sans-serif;
     font-size: 45px;
     color: #e74c3c;
@@ -29,7 +30,7 @@ h5{
 .card{
      border-width: 3px; }*/
  
- footer {
+footer {
     padding: 7em 0; }
   
   .footer-07 {

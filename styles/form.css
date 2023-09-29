@@ -1,0 +1,15 @@
+h1{
+    font-family: 'Zilla Slab', serif;
+}
+
+.custom-width{
+    width: 450px;
+    height: 120px;
+    border-width: 4px;
+    border-color: black;
+}
+p{
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Crimson Pro', sans-serif;
+}

@@ -5,6 +5,7 @@ import * as Yup from 'yup';
 import Moment from 'moment'; 
 import Styles from '@/styles/forms.module.css';
 
+
 const validationSchema = Yup.object({
   firstname1: Yup.string().required('First name is required'),
   lastname1: Yup.string().required('Last name is required'),
@@ -65,7 +66,7 @@ const PostForm = () => {
           }
         }
       >
-        <section className={`container my-2 bg-dark w-50 text-light p-2 ${Styles.formbody}`}>
+        <section className={`container my-2  w-50 text-light p-2 ${Styles.formbody}`}>
         <div className={`form-group row px-4 py-4  ${Styles.formhead}`}>
         <label htmlFor='' className='col-sm-3 col-form-label'><u>First Name</u></label>
             <div className='col-md-5'>
@@ -97,11 +98,11 @@ const PostForm = () => {
           </div>
           </div>
           <div className='container d-flex justify-content-center align-items-center'>
-          <button type='submit' className='btn btn-outline-primary btn-md'>Submit</button>
+          <button type='submit' className='btn btn-outline-dark btn-md'>Submit</button>
           </div>
           </section>
       </Form>)}
-        </Formik>
+    </Formik>
   );
 };
 
