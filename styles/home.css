@@ -18,7 +18,8 @@
     height: auto;
 } */
 
-.card1:hover{
+
+.card:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
     color: #e74c3c;
@@ -38,4 +39,12 @@
     font-family: 'Bricolage Grotesque', sans-serif;
     font-weight: bold;
     background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: medium;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: bold;
 }

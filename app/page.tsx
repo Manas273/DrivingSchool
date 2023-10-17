@@ -3,42 +3,59 @@ import Link from "next/link"
 import Navbar from "./Navbar";
 import demo from '@/public/demo.png';
 import Image from 'next/image';
-import Styles from '@/styles/home.module.css';
+import '@/styles/home.css';
 import { Component } from "react";
 import Footer from "./footer";
 
 const App = () => {
   return (
-    <div className='container p-5'>
-      <div className="row">
-        <div className="col">
-        <div className={`card ${Styles.card1}`}>
-            <div className={`card-body ${Styles.card2}`}>
-              Location
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className={`card ${Styles.card1}`}>
-            <div className={`card-body ${Styles.card2}`}>
-              7:00 - 18:00
-              <br></br>
-              Monday to Saturday
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className={`card ${Styles.card1}`}>
-            <div className={`card-body ${Styles.card2}`}>
-              Newtruckersacademy@gmail.com
-              <br></br>
-              403-121-1211
-            </div>
-          </div>
-        </div>
+    <><div className="slideshow-container">
+      <div className="mySlides fade">
+        <img src="logo3.png" alt="image1"></img>
       </div>
-
+      <div className="mySlides fade">
+        <img src="demo.png" alt="image2"></img>
+      </div>
+      <div className="mySlides fade">
+        <img src="logo3.png" alt="image3"></img>
+      </div>
     </div>
+      <div className='container p-5'>
+        <div className="row">
+          <div className="col">
+            <div className='card card1'>
+              <div className='card-body card2'>
+                <a href="https://maps.app.goo.gl/gxQ74xAKekKeymuQA">7320 40 Street NE
+                  <br></br>
+                  <br></br>
+                  Calgary AB T3J 4E6</a>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className='card card1'>
+              <div className='card-body card2'>
+                7:00 - 18:00
+                <br></br>
+                <br></br>
+                Monday to Saturday
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className='card card1'>
+              <div className='card-body card2'>
+                <a href="/contact">
+                  newtruckersdrivingacademy@gmail.com
+                  <br></br>
+                  <br></br>
+                  403-604-2084</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div></>
   );
 };
 

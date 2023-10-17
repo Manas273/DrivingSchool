@@ -13,11 +13,11 @@ const Contact = () => {
                 <div className='row justify-content-start'>
                     <div className='col md-6'>
             <div className='card shadow custom-width'>
-                <div className='card-body'>
-                    Email us at :  
+                <div className='card-body custom-text'>
+                    Email us at :  newtruckersdrivingacademy@gmail.com
                     <br></br>
                     <br></br>
-                Phone/Text us at:  
+                Phone/Text us at:  403-604-2084
             </div>
                         </div>
                     </div>
