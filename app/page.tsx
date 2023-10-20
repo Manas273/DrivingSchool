@@ -9,21 +9,10 @@ import Footer from "./footer";
 
 const App = () => {
   return (
-    <><div className="slideshow-container">
-      <div className="mySlides fade">
-        <img src="logo3.png" alt="image1"></img>
-      </div>
-      <div className="mySlides fade">
-        <img src="demo.png" alt="image2"></img>
-      </div>
-      <div className="mySlides fade">
-        <img src="logo3.png" alt="image3"></img>
-      </div>
-    </div>
       <div className='container p-5'>
         <div className="row">
           <div className="col">
-            <div className='card card1'>
+            <div className='card card1' id="location">
               <div className='card-body card2'>
                 <a href="https://maps.app.goo.gl/gxQ74xAKekKeymuQA">7320 40 Street NE
                   <br></br>
@@ -43,7 +32,7 @@ const App = () => {
             </div>
           </div>
           <div className="col">
-            <div className='card card1'>
+            <div className='card card1' id="contact">
               <div className='card-body card2'>
                 <a href="/contact">
                   newtruckersdrivingacademy@gmail.com
@@ -54,9 +43,9 @@ const App = () => {
             </div>
           </div>
         </div>
-
-      </div></>
+    </div>
   );
 };
 
 export default App;
+

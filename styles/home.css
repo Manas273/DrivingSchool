@@ -1,24 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&display=swap');
 
-/* .background{
-    background-position: center;
-    width: 500px;
-    height: 500px;
-}
-
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
-
-.slide {
-    display: none;
-    max-width: 100%;
-    height: auto;
-} */
-
-
 .card:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
