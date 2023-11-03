@@ -1,11 +1,2 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
-.formhead{
-    font-size: x-large;
-    font-family: 'PT Sans', sans-serif;
-}
-.formbody{
-    border-radius: 1em;
-    background-color: #9DB2BF;
-}

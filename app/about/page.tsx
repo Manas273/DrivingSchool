@@ -20,22 +20,22 @@ const About = () => {
                         Quality education shouldn't come at an exorbitant cost. We offer competitive tuition rates and various financing options to make our programs accessible to aspiring truckers.
                         Safety is our utmost priority. We instill a culture of safety in all our students, ensuring that they are well-prepared to navigate the challenges of the road responsibly.
                 </div>
-                <h2><u>Our Services</u></h2>
-                <div className='card shadow border-dark'>
-                    <div className='card-body'>
-                    <ul>-  We've been officially licensed and approved by the Alberta Ministry of Transportation.</ul>
-                    <ul>-  Our lessons are scheduled to suit our students' preferences.</ul>
-                    <ul>-  Completion of our courses with success is our primary goal for every driver.</ul>
-                    <ul>-  We can communicate effectively in English, Hindi, Punjabi and Urdu.</ul>
-                    <ul>-  Our instructors are seasoned professionals, each having taught for more than ten years.</ul>
-                    </div>
-                    </div>
                 <h2><u>Your Journey Starts Here</u></h2>
 
                     <div className='card-body'>
                     At New Truckers Driving Academy, we're not just a school, we're a community dedicated to your success. Whether you're a complete beginner or an experienced driver seeking to upgrade your skills, our doors are open to you.
                     Join us in Calgary, where the mountains meet the prairies, and embark on a rewarding career in the trucking industry. Experience the thrill of the open road while enjoying the stability and opportunities that come with a career as a professional truck driver.
                     Contact us today to learn more about our courses, enrollment options, and how we can help you turn your trucking dreams into reality. At New Truckers Driving Academy, your journey to becoming a skilled and confident truck driver begins now!
+                    </div>
+                <h2><u>Our Services</u></h2>
+                <div className='card shadow border-dark'>
+                    <div className='card-body card1'>
+                    <ul>-  We've been officially licensed and approved by the Alberta Ministry of Transportation.</ul>
+                    <ul>-  Our lessons are scheduled to suit our students' preferences.</ul>
+                    <ul>-  Completion of our courses with success is our primary goal for every driver.</ul>
+                    <ul>-  We can communicate effectively in English, Hindi, Punjabi and Urdu.</ul>
+                    <ul>-  Our instructors are seasoned professionals, each having taught for more than ten years.</ul>
+                    </div>
                     </div>
             </div></>
     );

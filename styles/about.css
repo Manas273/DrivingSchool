@@ -3,11 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
 
+.card1{
+    font-family: 'Crimson Pro', serif;
+    font-size: medium;
+    background-color: #D6DBD2;
+}
 .card-body{
     font-family: 'Crimson Pro', serif;
     font-size: medium;
 }
-
 p{
     font-family: 'Crimson Pro', serif;
     font-size: x-large;

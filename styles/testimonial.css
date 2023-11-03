@@ -1,4 +1,26 @@
 h1{
-    font-size: 60px;
     font-family: 'Zilla Slab', serif;
+}
+
+.card{
+    padding: 1rem;
+    border-width: 5px;
+    border-color: black;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top{
+    text-align: center;
+    width: 550px;
+    height: 350px;
+}
+
+.card-text{
+    font-style: italic;
+}
+
+.blockquote-footer{
+    padding: 0.5rem;
 }
