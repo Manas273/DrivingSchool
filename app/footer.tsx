@@ -1,5 +1,5 @@
 
-import Styles from '@/styles/footer.module.css';
+import '@/styles/footer.css';
 import Link from 'next/link';
 
 

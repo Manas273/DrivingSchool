@@ -2,46 +2,130 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
 
-.card:hover{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transform: scale(1.05);
+.card1{
+    height: 500px;
+    border-width: 5px;
+    border-color: #D6DBD2;
+    background-color: #D6DBD2;
+    padding: auto;
+    text-align: start;
     border-color: black;
 }
-.card1{
-    height: 250px;
-    border-width: 5px;
-    border-color: #FD7E70;
-    padding: auto;
-    text-align: center;
+.card1:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
 }
 .card2{
-    height: 250px;
+    height: 280px;
     border-width: 5px;
-    border-color: #FF5B49;
+    border-color: #D6DBD2;
+    background-color: #D6DBD2;
     padding: auto;
-    text-align: center;
+    text-align: start;
+    border-color: black;
 }
-
+.card2:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
 .card3{
-    height: 250px;
+    height: 220px;
     border-width: 5px;
-    border-color: #F82008;
+    border-color: #D6DBD2;
+    background-color: #D6DBD2;
     padding: auto;
-    text-align: center;
+    text-align: start;
+    border-color: black;
+}
+.card3:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
 }
 .card4{
-    height: 250px;
+    height: 200px;
     border-width: 5px;
-    border-color: #7F0D00;
+    border-color: #D6DBD2;
+    background-color: #D6DBD2;
     padding: auto;
     text-align: center;
+    border-color: black;
+}
+.card4:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.headingcontainer{
+    display: flex;
+    align-items: center;
+}
+.coursecontainer{
+    display: flex;
+    align-items: center;
 }
 
 h1{
     font-family: 'Zilla Slab', serif;
+    flex: 1;
 }
 
 .cardhead{
     font-size: 30px;
     font-family: 'Arimo', sans-serif;
 }
+
+.cardcontent{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Crimson Pro', sans-serif;
+}
+
+.cardcontent1{
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Crimson Pro', sans-serif;
+}
+.cardprice{
+    text-align: end;
+    font-size: 2px;
+    font-family: 'Arimo', sans-serif;
+}
+/* .cardprice1{
+    text-align: end;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+} */
+.cardhour{
+    text-align: start;
+}
+
+.pageend{
+    font-family: 'Crimson Pro', sans-serif;
+    font-size: x-large;
+}
+.cardcontent2{
+    font-family: 'Crimson Pro', sans-serif;
+    font-size: larger;
+    text-align: start;
+}
+.cardcontent2:hover{
+    color: #e74c3c;
+    
+}
+
+.icon{
+    text-align: end;
+}
+
+.slidingIcon{
+    animation: slideRight 3s linear;
+  }
+  
+  @keyframes slideRight {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }

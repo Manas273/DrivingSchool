@@ -4,10 +4,6 @@ import logo from '@/public/logo3.png';
 
 
 const Home = () => {
-    return (
-        <div />
-    
-        );
 };
 
 export default Home;

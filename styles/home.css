@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&display=swap');
 
+
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color: #121212;
+  }
+
 .card:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
@@ -11,15 +21,30 @@
     height: 200px;
     border-width: 4px;
     border-color: #121212;
+    background-color: #D6DBD2;
 }
 
 .card2{
-    padding-top: 45px;
-    text-align: center;
+    padding-top: 30px;
+    text-align: left;
+    font-size: large;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: bold;
+    background-color: #D6DBD2;
+}
+.icons{
+    background-color: #D6DBD2;
+    padding: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.card3{
+    padding-top: 30px;
+    text-align: left;
     font-size: medium;
     font-family: 'Bricolage Grotesque', sans-serif;
     font-weight: bold;
-    background-color: #ffffff;
+    background-color: #D6DBD2;
 }
 
 a {
@@ -29,3 +54,54 @@ a {
     font-family: 'Bricolage Grotesque', sans-serif;
     font-weight: bold;
 }
+/* 
+.clockIconContainer {
+    display: flex;
+    justify-content: center;
+  }
+   */
+   .clockIcon {
+    animation: rotate 2s linear;
+  } 
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .navIcon {
+    animation: bounce 2s ;
+  }
+
+
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    /* 60% {
+      transform: translateY(-5px);
+    } */
+  }
+
+  .emailIcon {
+    animation: pulse 2s ;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

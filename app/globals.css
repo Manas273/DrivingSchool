@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
  */
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
 
 
 .navbar-brand{
@@ -26,30 +26,7 @@ h5{
     text-align: end;
     font-family: 'Zilla Slab Highlight', serif;
 }
-/* 
-.card{
-     border-width: 3px; }*/
- 
-footer {
-    padding: 7em 0; }
-  
-  .footer-07 {
-    background: #121212; }
-    .footer-07 a {
-      color: #a3de83; }
-    .footer-07 p {
-      color: rgba(255, 255, 255, 0.3); }
-    .footer-07 .footer-heading {
-      font-size: 30px;
-      color: #fff;
-      font-weight: 700;
-      margin-bottom: 30px; }
-      .footer-07 .footer-heading .logo {
-        color: #fff; }
-    .footer-07 .menu {
-      margin-bottom: 30px; }
-      .footer-07 .menu a {
-        margin: 0 10px;
-        text-transform: uppercase;
-        letter-spacing: 1px; }
- 
+
+.cursor-pointer{
+  cursor: pointer;
+}

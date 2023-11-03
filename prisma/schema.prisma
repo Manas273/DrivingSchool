@@ -17,3 +17,9 @@ model Post {
   phone     String
   message    String
 }
+
+model Review{
+  id       String    @id @default(auto()) @map("_id") @db.ObjectId
+  username     String
+  comment  String   
+}
