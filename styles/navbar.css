@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 
 .navlink{
@@ -20,12 +20,17 @@ ul{
 }
 
 .navbar{
-    background: white;
+    background: #fffbf7;
     padding: 3rem 2rem;
     height: 0 rem;
     min-height: 12vh;
 }
 
+.navbar .navbar-brand{
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    color: #e74c3c;
+}
 .navbar .navbar-brand a{
     padding: 1rem 0;
     display: block;
@@ -49,6 +54,7 @@ ul{
     padding: 2rem, 1.2rem;
     font-size: 1.4rem;
     position: relative;
+    color: #121212;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover{

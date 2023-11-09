@@ -5,8 +5,7 @@
 .card1{
     height: 500px;
     border-width: 5px;
-    border-color: #D6DBD2;
-    background-color: #D6DBD2;
+    background-color: #E2E2D4;
     padding: auto;
     text-align: start;
     border-color: black;
@@ -18,8 +17,7 @@
 .card2{
     height: 280px;
     border-width: 5px;
-    border-color: #D6DBD2;
-    background-color: #D6DBD2;
+    background-color: #E2E2D4;
     padding: auto;
     text-align: start;
     border-color: black;
@@ -31,8 +29,7 @@
 .card3{
     height: 220px;
     border-width: 5px;
-    border-color: #D6DBD2;
-    background-color: #D6DBD2;
+    background-color: #E2E2D4;
     padding: auto;
     text-align: start;
     border-color: black;
@@ -44,8 +41,7 @@
 .card4{
     height: 200px;
     border-width: 5px;
-    border-color: #D6DBD2;
-    background-color: #D6DBD2;
+    background-color: #E2E2D4;
     padding: auto;
     text-align: center;
     border-color: black;
@@ -87,7 +83,7 @@ h1{
 }
 .cardprice{
     text-align: end;
-    font-size: 2px;
+    font-size: 25px;
     font-family: 'Arimo', sans-serif;
 }
 /* .cardprice1{

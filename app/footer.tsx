@@ -11,10 +11,11 @@ const Footer = () => {
                     <div className='col-md-12 text-center'>
                         <h2 className='footer-heading'>New Truckers Driving Academy</h2>
                         <div className='menu'>
-                            <Link href='/'>Home</Link>
-                            <Link href='/'>About</Link>
-                            <Link href='/'>Courses</Link>
-                            <Link href='/'>Contact</Link>
+                            <Link href='/home'>Home</Link>
+                            <Link href='/about'>About</Link>
+                            <Link href='/courses'>Courses</Link>
+                            <Link href='/testimonial'>Testimonial</Link>
+                            <Link href='/contact'>Contact</Link>
                         </div>
                     </div>
                 </div>

@@ -6,24 +6,27 @@ import demo from '@/public/demo.png';
 import Image from 'next/image';
 import '@/styles/home.css';
 import { Component } from "react";
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Footer from "./footer";
 
 const App = () => {
   return (
     <>
-      <Carousel showArrows={true} showStatus={false} showThumbs={false}>
-      <div className="imageContainer">
-        <img src="demo.png" alt="Image 1" />
-      </div>
-      <div className="imageContainer">
-        <img src="logo3.png" alt="Image 2" />
-      </div>
-      <div className="imageContainer">
-        <img src="navlogo.png" alt="Image 3" />
-      </div>
-    </Carousel>
+      <section className="container-image">
+        <div className="slider-wrapper">
+          <div className="slider">
+            <img src="demo1.png" alt="image1" id="image1"></img>
+            <img src="demo2.png" alt="image2" id="image2"></img>
+            <img src="demo3.png" alt="image3" id="image3"></img>
+            <img src="demo1.png" alt="image4" id="image4"></img>
+          </div>
+        <div className="slider-nav">
+            <a href="#image1"></a>
+            <a href="#image2"></a>
+            <a href="#image3"></a>
+            <a href="#image4"></a>
+          </div>
+        </div>
+      </section>
       <div className='container p-5'>
         <div className="row">
           <div className="col">
