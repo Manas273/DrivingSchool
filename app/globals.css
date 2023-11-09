@@ -4,27 +4,13 @@
  */
  @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
 
-
-.navbar-brand{
-    font-family: 'Oswald', sans-serif;
-    font-size: 45px;
-    color: #e74c3c;
+h1{
+  font-family: 'Zilla Slab', serif;
 }
+
 
 .layoutpadding{
     padding-top: 6rem;
-}
-h1{
-font-family: 'Bebas Neue', sans-serif;
-font-size: 60px;}
-h2{
-    padding-top: 20px;
-    font-size: 40px;
-    font-family: 'Zilla Slab', serif;
-}
-h5{
-    text-align: end;
-    font-family: 'Zilla Slab Highlight', serif;
 }
 
 .cursor-pointer{

@@ -18,8 +18,9 @@
     "bootstrap-icons": "^1.11.1",
     "formik": "^2.4.3",
     "moment": "^2.29.4",
-    "next": "13.4.11",
-    "postcss": "8.4.27",
+    "next": "^13.5.6",
+    "nodemailer": "^6.9.7",
+    "postcss": "^8.4.31",
     "react": "18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-bootstrap-icons": "^1.10.3",
@@ -34,6 +35,7 @@
   "main": "next.config.js",
   "devDependencies": {
     "@types/node": "^20.5.0",
+    "@types/nodemailer": "^6.4.14",
     "prisma": "^5.1.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"

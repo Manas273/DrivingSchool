@@ -1,5 +1,5 @@
 footer {
-    padding: 7em 0; }
+    padding: 3em 0; }
   
   .footer-07 {
     background: #121212; }
@@ -11,11 +11,11 @@ footer {
       font-size: 30px;
       color: #fff;
       font-weight: 700;
-      margin-bottom: 30px; }
+      margin-bottom: 20px; }
       .footer-07 .footer-heading .logo {
         color: #fff; }
     .footer-07 .menu {
-      margin-bottom: 30px; }
+      margin-bottom: 10px; }
       .footer-07 .menu a {
         margin: 0 10px;
         text-transform: uppercase;

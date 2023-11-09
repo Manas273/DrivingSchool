@@ -45,7 +45,6 @@ const PostForm = () => {
       console.error('Error:', error);
     }
   };
-//console.log("chage")
   return (
     <Formik
       initialValues={initialValues}

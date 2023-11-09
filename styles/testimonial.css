@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+
 h1{
     font-family: 'Zilla Slab', serif;
+    font-size: 40px;
 }
 
+p{
+    padding: 2rem;
+    font-size: x-large;
+    font-family: 'Crimson Pro', sans-serif;
+}
 .card{
     padding: 1rem;
-    border-width: 5px;
+    border-width: 3px;
     border-color: black;
     margin: 10px;
     justify-content: center;
