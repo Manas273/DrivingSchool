@@ -2,13 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 
-.navlink{
-    background-color: #121212;
-}
 a{
     text-decoration: none;
     color: rgba(34,54,69,.7 green, blue, alpha);
-    font-weight: 500;
 }
 
 a:hover{
@@ -22,7 +18,6 @@ ul{
 .navbar{
     background: #fffbf7;
     padding: 3rem 2rem;
-    height: 0 rem;
     min-height: 12vh;
 }
 
@@ -30,19 +25,13 @@ ul{
     font-family: 'Oswald', sans-serif;
     font-size: 45px;
     color: #e74c3c;
+    white-space: initial;
 }
 .navbar .navbar-brand a{
     padding: 1rem 0;
     display: block;
     text-decoration: none;
 }
-
-.navbar-brand{
-    font-family: 'Oswald', sans-serif;
-    font-size: 45px;
-    color: #e74c3c;
-}
-
 .navbar-toggler{
     background: #e74c3c;
     border: none;
@@ -62,7 +51,31 @@ ul{
     color: #e74c3c;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link:active{
-    border-top: 4px solid #e74c3c;
-    color: #e74c3c;
+
+.navbar-nav button{
+    padding: 1.2rem;
 }
+
+.navbar-nav .btn{
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 0;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    margin-top: 1px;
+}
+
+@media (max-width: 620px) {
+    .navbar .navbar-brand{
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        color: #e74c3c; 
+    }
+  }
+  @media (max-width: 450px) {
+    .navbar .navbar-brand{
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+        color: #e74c3c; 
+    }
+  }

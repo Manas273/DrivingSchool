@@ -7,26 +7,36 @@ import Image from 'next/image';
 import '@/styles/home.css';
 import { Component } from "react";
 import Footer from "./footer";
+import ImageSlider from "@/components/ImageSlider";
+
+const imagePaths = [
+  '/image1.jpg',
+  '/image2.jpg',
+  '/image3.jpg',
+];
+
 
 const App = () => {
   return (
     <>
-      <section className="container-image">
-        <div className="slider-wrapper">
-          <div className="slider">
-            <img src="demo1.png" alt="image1" id="image1"></img>
-            <img src="demo2.png" alt="image2" id="image2"></img>
-            <img src="demo3.png" alt="image3" id="image3"></img>
-            <img src="demo1.png" alt="image4" id="image4"></img>
-          </div>
-        <div className="slider-nav">
-            <a href="#image1"></a>
-            <a href="#image2"></a>
-            <a href="#image3"></a>
-            <a href="#image4"></a>
-          </div>
-        </div>
-      </section>
+      <ImageSlider images={imagePaths} />
+
+       {/* <section className="container-image">
+         <div className="slider-wrapper">
+           <div className="slider">
+             <img src="slider1.png" alt="image1" id="image1"></img>
+             <img src="slider2.png" alt="image2" id="image2"></img>
+             <img src="slider3.png" alt="image3" id="image3"></img>
+             <img src="demo1.png" alt="image4" id="image4"></img>
+           </div>
+         <div className="slider-nav">
+             <a href="#image1"></a>
+             <a href="#image2"></a>
+             <a href="#image3"></a>
+             <a href="#image4"></a>
+           </div>
+         </div>
+       </section> */}
       <div className='container p-5'>
         <div className="row">
           <div className="col">
