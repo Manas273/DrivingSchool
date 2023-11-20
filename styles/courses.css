@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Rubik:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Rubik:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
 
 .card1{
-    height: 500px;
+    min-height: 500px;
     border-width: 5px;
     background-color: #E2E2D4;
     padding: auto;
@@ -15,7 +15,7 @@
     transform: scale(1.05);
 }
 .card2{
-    height: 280px;
+    min-height: 280px;
     border-width: 5px;
     background-color: #E2E2D4;
     padding: auto;
@@ -27,7 +27,7 @@
     transform: scale(1.05);
 }
 .card3{
-    height: 220px;
+    min-height: 220px;
     border-width: 5px;
     background-color: #E2E2D4;
     padding: auto;
@@ -39,7 +39,7 @@
     transform: scale(1.05);
 }
 .card4{
-    height: 200px;
+    min-height: 200px;
     border-width: 5px;
     background-color: #E2E2D4;
     padding: auto;
@@ -86,11 +86,11 @@ h1{
     font-size: 25px;
     font-family: 'Arimo', sans-serif;
 }
-/* .cardprice1{
+.cardprice1{
     text-align: end;
     font-size: 20px;
     font-family: 'Arimo', sans-serif;
-} */
+} 
 .cardhour{
     text-align: start;
 }

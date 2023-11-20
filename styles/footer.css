@@ -15,7 +15,14 @@ footer {
       .footer-07 .footer-heading .logo {
         color: #fff; }
     .footer-07 .menu {
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      max-width: 700px;
+      margin: auto;
+    
+    }
       .footer-07 .menu a {
         margin: 0 10px;
         text-transform: uppercase;

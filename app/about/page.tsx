@@ -5,7 +5,7 @@ import  '@/styles/about.css';
 const About = () => {
     return (
         <><div className='d-flex justify-center'>
-            <img className='m-auto p-4' src={logo3.src} style={{ width: '670px', height: 'auto' }}></img>
+            <img className='m-auto p-4' src={logo3.src} style={{ width: '670px', height: 'auto', maxWidth:'100%' }}></img>
             </div>
             <div className='p-5 container'>
                 <h1>Welcome to New Truckers Academy</h1>

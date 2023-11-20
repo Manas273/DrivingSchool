@@ -1,10 +1,9 @@
-
 import '@/styles/courses.css';
 
 
 const Courses = () => {
     return (
-        <div className='container'>
+        <div className='container mt-4'>
             <div className='headingcontainer'>
             <h1><u>Courses</u></h1>
             <div className='icon'>
@@ -120,36 +119,36 @@ const Courses = () => {
 
       );
 };
-                {/* <div className='row justify-content-start'>
-                    <div className='col md-4 mb-4'>
-                        <div className={`card ${Styles.card1}`}>
-                            <div className='card-body'>
-                            <div className={`card-title ${Styles.cardhead}`}>
-                                    Class 1 MELT
-                                </div>
-                                <div className='line'>
-                                    --------------------------------------------
-                                </div>
-                                <div className='card-text'>
+                //  <div className='row justify-content-start'>
+                //     <div className='col md-4 mb-4'>
+                //         <div className={`card ${Styles.card1}`}>
+                //             <div className='card-body'>
+                //             <div className={`card-title ${Styles.cardhead}`}>
+                //                     Class 1 MELT
+                //                 </div>
+                //                 <div className='line'>
+                //                     --------------------------------------------
+                //                 </div>
+                //                 <div className='card-text'>
                                 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col md-8 mb-4'>
-                            <div className={`card ${Styles.card1}`}>
-                                <div className='card-body'>
-                                    <div className={`card-title ${Styles.cardhead}`}>
-                                        Class 3 
-                                </div>
-                                <div className='line'>
-                                    --------------------------------------------
-                                </div>
-                                    <div className='card-text'>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
+                //                 </div>
+                //             </div>
+                //         </div>
+                //     </div>
+                //     <div className='col md-8 mb-4'>
+                //             <div className={`card ${Styles.card1}`}>
+                //                 <div className='card-body'>
+                //                     <div className={`card-title ${Styles.cardhead}`}>
+                //                         Class 3 
+                //                 </div>
+                //                 <div className='line'>
+                //                     --------------------------------------------
+                //                 </div>
+                //                     <div className='card-text'>
+                //                     </div>
+                //                 </div>
+                //             </div>
+                //         </div>
+                //     </div> 
 
 export default Courses;

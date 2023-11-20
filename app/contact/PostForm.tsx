@@ -4,6 +4,8 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import Moment from 'moment'; 
 import Styles from '@/styles/forms.module.css';
+import "@/styles/form.css";
+import { FormControl } from 'react-bootstrap';
 
 
 const validationSchema = Yup.object({
@@ -65,14 +67,14 @@ const PostForm = () => {
           }
         }
       >
-        <section className={`container my-2  w-50 text-dark p-2 ${Styles.formbody}`}>
+        <section className={`container my-2  w-75 text-dark p-2 ${Styles.formbody}`}>
         <div className={`form-group row px-4 py-4  ${Styles.formhead}`}>
         <label htmlFor='' className='col-sm-3 col-form-label text-dark'><u>First Name</u></label>
             <div className='col-md-5'>
               <Field name="firstname1" className='form-control' id='firstname1' placeholder='First name'/>
           </div>
         </div>
-        <div className={`form-group row px-4  ${Styles.formhead}`}>
+          <div className={`form-group row px-4  ${Styles.formhead}`}>
         <label htmlFor='lastname1' className='col-sm-3 col-form-label text-dark'><u>Last Name</u></label>
           <div className='col-md-5'>
           <Field name="lastname1" className='form-control' id='lastname1' placeholder='Last name'/>
@@ -92,8 +94,8 @@ const PostForm = () => {
         </div>
         <div className={`form-group row px-4 py-4  ${Styles.formhead}`}>
         <label htmlFor='message1' className='col-sm-3 col-form-label text-dark'><u>Message</u></label>
-          <div className='col-md-5'>
-            <Field  component='textarea' rows='3' placeholder='Message' name='message1' />
+          <div className='col-md-4'>
+              <Field component='textarea' rows='3' placeholder='Message' name='message1' style={{ maxWidth: '100%' }} />
           </div>
           </div>
           <div className='container d-flex justify-content-center align-items-center'>
