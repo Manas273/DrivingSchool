@@ -2,6 +2,7 @@ import demo from "@/public/demo.png";
 import logo3 from '@/public/logo3.png';
 import  '@/styles/about.css';
 
+
 const About = () => {
     return (
         <><div className='d-flex justify-center'>

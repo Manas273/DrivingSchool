@@ -1,5 +1,6 @@
 h1{
     font-family: 'Zilla Slab', serif;
+    flex: 1;
 }
 
 .custom-width{

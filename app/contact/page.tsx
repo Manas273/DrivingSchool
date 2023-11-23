@@ -1,10 +1,11 @@
 import Postform from '@/app/contact/PostForm';
 import '@/styles/form.css';
 
+
 const Contact = () => {
     return (
         
-    <div className='container-fluid'>
+    <div className='container mt-1'>
             <h1><u>Let's Drive together</u></h1>
             <p>Now that you know we can help, we would love to know more about your driving goals.
                 <br></br>How can we assist you today? Please fill out the contact form below.
