@@ -57,7 +57,7 @@
 }
  
 .card1{
-    height: 200px;
+    min-height: 200px;
     border-width: 4px;
     border-color: #121212;
     background-color: #D6DBD2;

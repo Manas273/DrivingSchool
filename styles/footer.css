@@ -1,20 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 footer {
     padding: 3em 0; }
   
   .footer-07 {
-    background: #121212; }
-    .footer-07 a {
-      color: #a3de83; }
+    background: #121212; 
+}
+  .footer-07 a {
+      color: #a3de83; 
+}
     .footer-07 p {
-      color: rgba(255, 255, 255, 0.3); }
-    .footer-07 .footer-heading {
-      font-size: 30px;
+      color: rgba(255, 255, 255, 0.3); 
+}
+  .footer-07 .footer-heading {
+      font-size: 45px;
       color: #fff;
       font-weight: 700;
-      margin-bottom: 20px; }
-      .footer-07 .footer-heading .logo {
-        color: #fff; }
-    .footer-07 .menu {
+      font-family: 'Oswald', sans-serif;
+      margin-bottom: 20px;
+}
+  .footer-07 .menu {
       margin-bottom: 10px;
       display: flex;
       justify-content: space-evenly;

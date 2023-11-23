@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+header{
+    padding: 1em 0;
+}
+
+.header-07{
+    background: #ede6df;
+}
+.header-07 a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #121212;
+}
+.header-07 a:hover{
+    color: #e74c3c;
+}
+.header-07 .header-heading{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+    white-space: initial;
+}
+.header-07 .menuup{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+
+.header-07 .menuup a:hover{
+    border-top: 4px solid #e74c3c;
+    border-bottom: 4px solid #e74c3c;
+    color: #e74c3c;
+}
+
+.header-07 .menuup a{
+    margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+@media (max-width: 620px) {
+    .header-07 .header-heading{
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        color: #121212; 
+    }
+  }
+  @media (max-width: 450px) {
+    .header-07 .header-heading{
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+        color: #121212; 
+    }
+  }
+  @media (max-width: 550px) {
+    .header-07 a{
+        font-size: 18px;
+        color: #121212; 
+    }
+  }
+  @media (max-width: 450px) {
+    .header-07 a{
+        font-size: 14px;
+        color: #121212; 
+    }
+  }

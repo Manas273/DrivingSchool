@@ -1,6 +1,5 @@
 
 import '@/styles/footer.css';
-import Link from 'next/link';
 
 
 const Footer = () => {
@@ -11,25 +10,17 @@ const Footer = () => {
                     <div className='col-md-12 text-center'>
                         <h2 className='footer-heading'>New Truckers Driving Academy</h2>
                         <div className='menu'>
-                            <Link href='/home'><u>Home</u></Link>
-                            <Link href='/about'><u>About</u></Link>
-                            <Link href='/courses'><u>Courses</u></Link>
-                            <Link href='/testimonial'><u>Testimonial</u></Link>
-                            <Link href='/contact'><u>Contact</u></Link>
+                            <a href='/home'><u>Home</u></a>
+                            <a href='/about'><u>About</u></a>
+                            <a href='/courses'><u>Courses</u></a>
+                            <a href='/testimonial'><u>Testimonial</u></a>
+                            <a href='/contact'><u>Contact</u></a>
                         </div>
                     </div>
                 </div>
-            </div>
-            
-        
-        
-        
-        
-        
-        
-        
+            </div> 
         </footer>
      )
 }
     
-    export default Footer;
+export default Footer;

@@ -1,7 +1,8 @@
 'use client'
 import Link from "next/link"
 import { useState, useEffect } from 'react';
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
+import Header from "./header";
 import demo from '@/public/demo.png';
 import Image from 'next/image';
 import '@/styles/home.css';
@@ -38,7 +39,7 @@ const App = () => {
          </div>
        </section> */}
       <div className='container p-5'>
-        <div className="row">
+        <div className="row gap-4">
           <div className="col">
             <a href="https://maps.app.goo.gl/gxQ74xAKekKeymuQA" className='card cursor-pointer card1' id="location">
               <div className="icons">
