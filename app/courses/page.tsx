@@ -3,7 +3,7 @@ import '@/styles/courses.css';
 
 const Courses = () => {
     return (
-        <div className='container mt-4'>
+        <div className='container mt-2'>
             <div className='headingcontainer'>
             <h1><u>Courses</u></h1>
             <div className='icon'>

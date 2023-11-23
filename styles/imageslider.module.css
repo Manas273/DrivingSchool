@@ -4,9 +4,10 @@
     max-width: 80%;
     overflow: hidden;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    min-width: fit-content;
   }
   
   .slide {
@@ -18,9 +19,6 @@
   }
   
   .navButton {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     border: none;
     background: transparent;
     cursor: pointer;
