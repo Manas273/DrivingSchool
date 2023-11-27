@@ -31,7 +31,7 @@ export async function POST(request: Request) {
     
     var mailOptions = {
         from: process.env.EMAIL,
-        to: 'truckersacademycalgary@gmail.com',
+        to: 'sehjpalmanas273@gmail.com',
         subject: 'Contact Form',
         html: `<!DOCTYPE html><html> 
         <head> 
