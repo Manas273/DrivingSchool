@@ -1,7 +1,6 @@
 'use client'
 import Link from "next/link"
 import { useState, useEffect } from 'react';
-// import Navbar from "./Navbar";
 import Header from "./header";
 import demo from '@/public/demo.png';
 import Image from 'next/image';
@@ -22,22 +21,6 @@ const App = () => {
     <>
       <ImageSlider images={imagePaths} />
 
-       {/* <section className="container-image">
-         <div className="slider-wrapper">
-           <div className="slider">
-             <img src="slider1.png" alt="image1" id="image1"></img>
-             <img src="slider2.png" alt="image2" id="image2"></img>
-             <img src="slider3.png" alt="image3" id="image3"></img>
-             <img src="demo1.png" alt="image4" id="image4"></img>
-           </div>
-         <div className="slider-nav">
-             <a href="#image1"></a>
-             <a href="#image2"></a>
-             <a href="#image3"></a>
-             <a href="#image4"></a>
-           </div>
-         </div>
-       </section> */}
       <div className='container p-5'>
         <div className="row gap-4">
           <div className="col">
