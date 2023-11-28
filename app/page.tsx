@@ -46,7 +46,7 @@ const App = () => {
                 </svg>
               </div>
               <div className='card-body card2'>
-                8:00 - 18:30
+                8:00 a.m. - 6:30 p.m.
                 <br></br>
                 Monday to Saturday
               </div>
