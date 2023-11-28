@@ -17,32 +17,33 @@ const Testimonial = () => {
                 <div className='card-body'>
                     <blockquote className='card-text'>
                         <p></p>
-                        <footer className='blockquote-footer'></footer>
+                        <footer className='blockquote-footer'><b>Jasmeet Singh, Calgary, AB. Passed on August 2 2023</b></footer>
                     </blockquote>
                 </div>
             </div>
         </div>
             <div className="container mt-4">
                 <div className="row">
-                    <div className="col-md-6 mb-4">
+                <div className="col-md-6 mb-4">
                         <div className='card'>
-                            {/* <img src='demo1.png' alt='image' className='card-img-top' /> */}
+                            <img src='testimonial3.jpeg' alt='image' className='card-img-top img-fluid' />
                             <div className='card-body'>
                                 <blockquote className='card-text'>
-                                    <p>"New Truckers Driving Academy is great, Dev is very knowledgeable and took the time to help no matter what the situation is and treats you like family.
-                                        I couldn't have asked for anyone better to teach me. I am really happy with the outcome and couldn't be more happy."</p>
-                                    <footer className='blockquote-footer'>Jasmeet Kaur, November 6 2023</footer>
+                                    <p>"Under Dev's expert guidance, I passed my exam on the first attempt.
+                                        His hands-on approach, focus on safety, and commitment to success make this school the best choice for anyone aspiring to become a skilled and confident truck driver. Highly recommend!"</p>
+                                    <footer className='blockquote-footer'><b>Gurpreet Singh, Grand Prairie, AB. Passed on November 23 2023</b></footer>
                                 </blockquote>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-6 mb-4">
                         <div className='card'>
-                            <img src='testimonial2.png' alt='image' className='card-img-top img-fluid' />
+                            <img src='testimonial2.jpeg' alt='image' className='card-img-top img-fluid' />
                             <div className='card-body'>
                                 <blockquote className='card-text'>
-                                    <p></p>
-                                    <footer className='blockquote-footer'></footer>
+                                    <p>"New Truckers Driving Academy in Calgary is the best choice. Traveling from Grand Prairie, Me and Devinder found the instructor to be excellent and the training to be top-notch.
+                                        If you want your licence quickly, this school is the best choice."</p>
+                                    <footer className='blockquote-footer'><b>Devinder Singh and Mandeep Brar, Grand Prairie, AB. Passed on July 19 2023</b></footer>
                                 </blockquote>
                             </div>
                         </div>
@@ -51,22 +52,37 @@ const Testimonial = () => {
                 <div className="row">
                     <div className="col-md-6 mb-4">
                         <div className='card'>
-                            <img src='testimonial3.png' alt='image' className='card-img-top img-fluid' />
+                            <img src='testimonial5.jpeg' alt='image' className='card-img-top img-fluid' />
                             <div className='card-body'>
                                 <blockquote className='card-text'>
-                                    <p></p>
-                                    <footer className='blockquote-footer'></footer>
+                                    <p>"I recently completed my training at New Truckers Driving Academy, and I can confidently say that it was a transformative experience that exceeded all my expectations.
+                                        Dev, our instructor, played a pivotal role in making this journey not only educational but also enjoyable."</p>
+                                    <footer className='blockquote-footer'><b>Rohitbeer Singh, Calgary, AB. Passed on July 28 2023</b></footer>
                                 </blockquote>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-6 mb-4">
                         <div className='card'>
-                            <img src='demo1.png' alt='image' className='card-img-top img-fluid' />
+                            <img src='testimonial4.jpeg' alt='image' className='card-img-top img-fluid' />
                             <div className='card-body'>
                                 <blockquote className='card-text'>
-                                    <p>A well-known quote, contained in a blockquote element</p>
-                                    <footer className='blockquote-footer'>Someone Famous</footer>
+                                    <p>"Dev's expertise and hands-on training were instrumental in my first-attempt success. His dedication to safety and personalized guidance make this school stand out.
+                                        For a top-tier education and a smooth road to success, choose New Truckers Driving Academy."</p>
+                                    <footer className='blockquote-footer'><b>Sajanpreet Singh, Calgary, AB. Passed on November 14 2023</b></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-6 mb-4">
+                        <div className='card'>
+                            <div className='card-body'>
+                                <blockquote className='card-text'>
+                                    <p>"New Truckers Driving Academy is great, Dev is very knowledgeable and took the time to help no matter what the situation is and treats you like family.
+                                        I couldn't have asked for anyone better to teach me. I am really happy with the outcome and couldn't be more happy."</p>
+                                    <footer className='blockquote-footer'><b>Jasmeet Kaur, Calgary, AB. Passed on November 6 2023</b></footer>
                                 </blockquote>
                             </div>
                         </div>

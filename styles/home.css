@@ -138,3 +138,9 @@ a {
       transform: scale(1);
     }
   }
+
+  @media (max-width: 550px) {
+    .card1{
+        min-width: 200px; 
+    }
+  }
