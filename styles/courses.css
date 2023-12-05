@@ -10,10 +10,10 @@
     text-align: start;
     border-color: black;
 }
-.card1:hover{
+/* .card1:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
-}
+} */
 .card2{
     min-height: 280px;
     border-width: 5px;
@@ -22,10 +22,10 @@
     text-align: start;
     border-color: black;
 }
-.card2:hover{
+/* .card2:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
-}
+} */
 .card3{
     min-height: 220px;
     border-width: 5px;
@@ -34,10 +34,10 @@
     text-align: start;
     border-color: black;
 }
-.card3:hover{
+/* .card3:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
-}
+} */
 .card4{
     min-height: 200px;
     border-width: 5px;
@@ -46,11 +46,6 @@
     text-align: center;
     border-color: black;
 }
-.card4:hover{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transform: scale(1.05);
-}
-
 .headingcontainer{
     display: flex;
     align-items: center;
@@ -104,24 +99,6 @@ h1{
     font-size: larger;
     text-align: start;
 }
-.cardcontent2:hover{
-    color: #e74c3c;
-    
-}
-
 .icon{
     text-align: end;
 }
-
-/* .slidingIcon{
-    animation: slideRight 3s linear;
-  }
-  
-  @keyframes slideRight {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(100%);
-    }
-  } */

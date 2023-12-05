@@ -9,6 +9,7 @@ import { Component } from "react";
 import Footer from "./footer";
 import ImageSlider from "@/components/ImageSlider";
 
+
 const imagePaths = [
   '/image1.jpg',
   '/image2.jpg',

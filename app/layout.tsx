@@ -3,7 +3,8 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './footer';
-import { Url } from 'next/dist/shared/lib/router/router';('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+import { Url } from 'next/dist/shared/lib/router/router'; ('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+
 
 const inter = Inter({ subsets: ['latin'] })
 

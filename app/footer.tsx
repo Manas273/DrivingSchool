@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className='col-md-12 text-center'>
                         <h2 className='footer-heading'>New Truckers Driving Academy</h2>
                         <div className='menu'>
-                            <a href='/home'><u>Home</u></a>
+                            <a href='/'><u>Home</u></a>
                             <a href='/about'><u>About</u></a>
                             <a href='/courses'><u>Courses</u></a>
                             <a href='/testimonial'><u>Testimonial</u></a>
