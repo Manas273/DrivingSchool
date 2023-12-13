@@ -61,10 +61,12 @@
     border-width: 4px;
     border-color: #121212;
     background-color: #D6DBD2;
+    align-items: center;
+    justify-content: center;
 }
 
 .card2{
-    padding-top: 30px;
+    padding-top: 25px;
     text-align: left;
     font-size: large;
     font-family: 'Bricolage Grotesque', sans-serif;
@@ -77,7 +79,7 @@
     
 }
 .card3{
-    padding-top: 30px;
+    padding-top: 25px;
     text-align: left;
     font-size: medium;
     font-family: 'Bricolage Grotesque', sans-serif;
