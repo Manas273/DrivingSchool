@@ -5,7 +5,8 @@ import { Inter } from 'next/font/google'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './footer';
 import { Url } from 'next/dist/shared/lib/router/router';import { Nav } from 'react-bootstrap';
- ('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+ import favicon from '@/public/favicon.ico'
 
 
 const inter = Inter({ subsets: ['latin'] })
