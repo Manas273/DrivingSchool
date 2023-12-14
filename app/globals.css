@@ -1,22 +1,3 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
-
-/* @import 'bootstrap/dist/css/bootstrap.min.css';*/
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Rubik:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&display=swap');
-
-
-
-
 h1{
   font-family: 'Zilla Slab', serif;
 }
