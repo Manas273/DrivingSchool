@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 header{
     padding: 1em 0;
@@ -17,7 +17,8 @@ header{
 }
 .header-07 .header-heading{
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
     font-size: 45px;
     font-weight: 700;
     color: #121212;
@@ -43,7 +44,9 @@ header{
 }
 @media (max-width: 620px) {
     .header-07 .header-heading{
-        font-family: 'Oswald', sans-serif;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 400;
         font-size: 30px;
         color: #121212; 
     }
