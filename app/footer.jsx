@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="sb_footer-links_div">
                         <a href='/'><h5>Home</h5></a>
                         <a href='/about'><h5>About</h5></a>
-                        <a href='/course'><h5>Courses</h5></a>
+                        <a href='/courses'><h5>Courses</h5></a>
                         <a href='/testimonial'><h5>Testimonial</h5></a>
                         <a href='/contact'><h5>Contact</h5></a>
                     </div>
